@@ -56,7 +56,4 @@ integral_analytical = (2 ** 3) / 3
 print("Analytical value of the integral: ", integral_analytical)
 print("Error of Monte Carlo method from analytical value: ", abs(integral_mc - integral_analytical))
 
-# Accuracy confirmation
-# The Monte Carlo method provides an approximate result that is very close to the analytical solution and the result from the quad function. The error is minimal, indicating high accuracy of the Monte Carlo method when using a large number of random points (in this case, 100000).
 
-# Therefore, the Monte Carlo method is effective and accurate for calculating integrals, especially when using a sufficient number of random points to achieve the required precision.
